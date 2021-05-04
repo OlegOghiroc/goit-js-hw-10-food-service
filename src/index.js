@@ -7,7 +7,7 @@ const jsMenuConteiner = document.querySelector('.js-menu');
 const toggleButton = document.querySelector('#theme-switch-toggle')
 const marcup = templates(menu);
 const menuBody = document.querySelector('body');
-
+menuBody.classList.add('light-theme');
 // вставка розмітки
 jsMenuConteiner.insertAdjacentHTML('afterbegin', marcup);
 
